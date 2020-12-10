@@ -51,7 +51,7 @@ height: 100%;
                         <div class="card-body">
                             <!--begin::Section-->
                             <div class="video-responsive" style="overflow: hidden; justify-content: center; align-items: center;">
-                                <video class="player"  width="520" height="250" data-user=@json($ex->exercise_id) controls>
+                                <video class="player"  height="250" data-user=@json($ex->exercise_id) controls>
                                     <source src="{{'http://localhost/RehabilitacionApp/public'.$ex->exercise_path}}" type="video/mp4">
                                     Tu navegador no soporta los vídeos de HTML5
                                 </video>
